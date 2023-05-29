@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer__content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  margin: 2rem 4rem;
+}
+.footer__content-left-logo {
+  margin-bottom: 1.5rem;
+}
+
+.footer__content-left-text p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: var(--color-text);
+}
+.footer__content-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.footer__content-contacts-links_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer__content-contacts-title {
+  margin-bottom: 1.5rem;
+}
+
+.footer__content-contacts-title h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+  color: var(--color-mark-subtext);
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem   ;
+}
+.footer__content-contacts-link_container-logo {
+  margin-right: 0.5rem;
+}
+
+.footer__content-contacts-links_container-name {
+  margin-left: 0.5rem;
+}
+
+.footer__content-contacts-links_container-name p , a {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+    text-decoration: none;
+  color: var(--color-mark-subtext);
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0rem 1rem;
+}
+
+
+@media screen and (max-width:900px) {
+  .footer__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer__content-left{
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer__content-contacts-links_container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__content-contacts {
+    align-items: center;
+  }
+
+  .footer__content-left{
+    max-width: 400px;
+  }
+}
+

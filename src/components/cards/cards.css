@@ -1,0 +1,92 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--color-light-bg);
+  width: 200px;
+  height: 300px;
+  transition: all 0.3s ease;
+  /* border-radius: 50%; */
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.card:hover {
+  width: 300px;
+  height: 400px;
+  margin: 0rem;
+}
+.card:hover .card__content-name {
+  color: var(--color-mark-subtext);
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+
+}
+
+.card__content-logo {
+  margin-bottom: 2rem;
+  height: 128px;
+  width: 128px;
+  transition: all 0.3s ease;
+}
+
+.card__content-logo img {
+  margin-bottom: 2rem;
+  height: 128px;
+  width: 128px;
+  transition: all 0.3s ease;
+}
+
+.card__content-name {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 34px;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width:900px) {
+  .card:hover {
+    width: 250px;
+    height: 350px;
+    margin: .5rem;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .card:hover {
+    width: 225px;
+    height: 325px;
+    margin: .5rem;
+  }
+}
+
+
+@media screen and (max-width:825px) {
+  .card:hover {
+    width: 210px;
+    height: 310px;
+    margin: .25rem;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .card:hover {
+    width: 200px;
+    height: 300px;
+    margin: .5rem;
+  }
+}
