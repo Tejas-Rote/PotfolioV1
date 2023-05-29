@@ -39,7 +39,9 @@ const Footer = () => {
                   <img src={linked} alt="linked" />
                 </div>
                 <div className="footer__content-contacts-links_container-name">
-                  <a href="https://twitter.com/rote_tejas">Tejas Rote</a>
+                  <a href="https://www.linkedin.com/in/tejas-rote-207289208/">
+                    Tejas Rote
+                  </a>
                 </div>
               </div>
             </div>
@@ -50,7 +52,9 @@ const Footer = () => {
                 </div>
                 <div className="footer__content-contacts-links_container-name">
                   {/* <p>tejas292002</p> */}
-                  <a href="https://auth.geeksforgeeks.org/user/tejas292002">tejas292002</a>
+                  <a href="https://auth.geeksforgeeks.org/user/tejas292002">
+                    tejas292002
+                  </a>
                 </div>
               </div>
 
