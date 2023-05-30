@@ -170,3 +170,31 @@
     height: auto;
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .projectCard,
+  .projectCardR {
+    flex-direction: column;
+    max-width: 360px;
+  }
+  .image-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .image-container img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image:hover {
+    cursor: grab;
+    transform: translateY(-50%);
+  }
+}

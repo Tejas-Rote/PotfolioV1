@@ -71,3 +71,15 @@
   line-height: 17px;
   color: var(--color-text);
 }
+
+@media screen and (max-width:400px) {
+  .gallery {
+    width: 390px;
+  }
+  .gallery-container-image{
+    height: 400px;
+  }
+  .gImage {
+    /* height: 350px; */
+  }
+}

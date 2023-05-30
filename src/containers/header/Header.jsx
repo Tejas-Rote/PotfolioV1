@@ -21,7 +21,7 @@ const Header = () => {
               <p>
                 🌱 I’m currently learning Redux, ExpressJS
                 <br/>
-                💬 Ask me about ReactJs, HTML, CSS, Javascript 
+                💬 Ask me about ReactJs, HTML, CSS, JS 
                 <br/>
                 📫 How to reach me tejas292002@gmail.com
               </p>
@@ -33,7 +33,7 @@ const Header = () => {
             <div className="parent"></div>
             <div id="blob">
               <div className="mask1 b1">
-                <img src={Tejas} width="400" height="400" />
+                <img src={Tejas} className="tejas"  />
               </div>
               <img src={b2} alt="blob" className="b1" />
             </div>
