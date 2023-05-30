@@ -9,7 +9,9 @@ const App = () => {
         <Navbar />
         <Header />
         <Skills />
+
         <MyProject />
+
         <Footer />
       </div>
     </div>

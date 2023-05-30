@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: var(--color-dark-bg);
+  background-color: var(--color-dark-bg);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -38,8 +38,28 @@
 .bg {
   background-color: var(--color-dark-bg);
 }
-@media screen and (max-width:400px) {
-  .bg {
-    max-width: 390px;
+
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 380px) {
+  .app {
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
   }
 }

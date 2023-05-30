@@ -66,3 +66,13 @@
   }
   
 }
+
+
+@media screen and (max-width:380px) {
+  .skills {
+    width: 360px;
+    margin:0rem 0rem;
+    padding: 0;
+  }
+  
+}

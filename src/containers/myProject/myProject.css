@@ -1,17 +1,16 @@
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
-
 .top {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: 4rem;
-
 }
 
 .title {
@@ -28,7 +27,12 @@
   color: var(--color-mark-subtext);
 }
 
-
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .subtitle h2 {
   font-family: var(--font-family);
   font-style: normal;
@@ -41,27 +45,41 @@
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0rem 2rem ;
-}   
-.proj { 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projects-content{
+  margin: 0;
+  padding: 0;
 }
 
-
-@media screen and (max-width:1040px) {
-  .top   {
-    margin-top:8rem;
+@media screen and (max-width: 1040px) {
+  .top {
+    margin-top: 8rem;
   }
 
-  .content  {
-    margin: 0rem 2rem;
-    padding: 0rem 1rem;
+  .content {
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
   }
 }
+
+@media screen and (max-width:380px) {
+  .projects-content {
+    width: 360px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 ;
+  }
+}
+@media screen and (max-width:360px) {
+  .projects-content {
+    width: 360px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 ;
+  }
+}
+
